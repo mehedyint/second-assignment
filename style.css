@@ -1,6 +1,7 @@
 * {
     margin: 0px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans',
+        sans-serif;
 }
 
 header {
@@ -60,6 +61,7 @@ nav li {
     padding: 18px 35px;
     height: 64px;
     border-radius: 5px;
+    margin-top: 30px;
     background: #FF900E;
     cursor: pointer;
 }
@@ -71,4 +73,139 @@ nav li {
     left: 240px;
     top: 577px;
     border-radius: 10px;
+}
+
+/* gallery styles */
+
+.gallery {
+    border: 2px solid rgb(84, 214, 9);
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin: 50px 250px;
+}
+
+.text-primary {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.aside {
+    margin-top: 150px;
+    margin-right: 100px;
+    text-align: left center;
+    width: 468px;
+    height: 106px;
+}
+
+.aside-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.aside-description {
+    margin-top: 24px;
+    color: #727272;
+}
+
+.quick-list {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+/* About section */
+.about {
+    margin-left: 240px;
+    margin-right: 240px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 54px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.vertical {
+    width: 5px;
+    height: 106px;
+    left: 240px;
+    top: 2284px;
+    background: #FF900E;
+}
+
+.architect {
+    width: 708px;
+    height: 982px;
+    left: 972px;
+    top: 2245px;
+}
+
+.info-container {
+    margin-top: 24px;
+    height: 171px;
+    left: 240px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+
+.info-title {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.info-description {
+    padding-top: 10px;
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.btn-big {
+    height: 200px;
+    left: 880px;
+    top: 3104px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.Experience {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.somefacts {
+    text-align: left;
+    margin-top: 130px;
+    margin-left: 240px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.facts-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 }
