@@ -78,7 +78,6 @@ nav li {
 /* gallery styles */
 
 .gallery {
-    border: 2px solid rgb(84, 214, 9);
     display: flex;
     justify-content: space-between;
     justify-items: center;
